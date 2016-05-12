@@ -1,0 +1,17 @@
+portraits = {
+####HUMANS##########
+####MINBARI###
+	minbari-ruler1 = {     
+		texturefile = "gfx/portraits/minbari-ruler1.dds"
+	}
+
+}
+
+portrait-groups = {
+	minbari = {
+		default = minbari-ruler1
+		portraits = {
+			minbari-ruler1
+		}
+	}
+}

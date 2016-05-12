@@ -1,4 +1,4 @@
-"Earth Alliance"
+human
 ={
 	name_list="Human"
 	ship_prefix="EAS"
@@ -49,7 +49,7 @@
 	trait="trait_communal"
 }
 
-"Minbari Federation"
+minbari
 ={
 	name_list="Human"
 	ship_prefix="EAS"
@@ -57,7 +57,7 @@
 	species_plural="Minbari"
 	species_class="MAM"
 	species_adjective="Minbari"
-	portrait="human"
+	portrait="minbari"
 	name="Minbari Federation"
 	adjective="Minbari Federation"
 	government="theocratic_oligarchy"
@@ -66,7 +66,6 @@
 	planet_name="Minbar"
 	planet_class="pc_continental"
 	system_name="Chi Draconis"
-	initializer="sol_system_initializer"
 	graphical_culture="avian_01"
 	city_graphical_culture="avian_01"
 	empire_flag={
@@ -76,21 +75,21 @@
 		}
 		background={
 			category="backgrounds"
-			file="00_solid.dds"
+			file="new_dawn.dds"
 		}
 		colors={
 			"blue"
-			"null"
+			"dark_blue"
 			"null"
 			"null"
 		}
 	}
 	ruler={
-		gender=male
-		name="Luis Santiago"
-		portrait="human_male_01"
+		gender=female
+		name="Delenn"
+		portrait="minbari-ruler1"
 		texture=0
-		hair=1
+		hair=0
 		clothes=0
 	}
 	spawn_enabled=yes

@@ -1,0 +1,50 @@
+"Earth Alliance"
+={
+	name_list="Human"
+	ship_prefix="EAS"
+	species_name="Human"
+	species_plural="Humans"
+	species_class="MAM"
+	species_adjective="Human"
+	portrait="human"
+	name="Earth Alliance"
+	adjective="Earth Alliance"
+	government="indirect_democracy"
+	ftl=wormhole
+	weapon="tech_mass_drivers_1"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="babylon5"
+			file="ea.dds"
+		}
+		background={
+			category="backgrounds"
+			file="solid.dds"
+		}
+		colors={
+			"blue"
+			"null"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Luis Santiago"
+		portrait="human_male_01"
+		texture=0
+		hair=5
+		clothes=4
+	}
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_materialist"
+	trait="trait_quick_learners"
+	trait="trait_communal"
+}

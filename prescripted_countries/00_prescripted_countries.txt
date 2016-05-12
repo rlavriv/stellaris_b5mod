@@ -25,10 +25,10 @@
 		}
 		background={
 			category="backgrounds"
-			file="solid.dds"
+			file="00_solid.dds"
 		}
 		colors={
-			"blue"
+			"purple"
 			"null"
 			"null"
 			"null"
@@ -47,4 +47,55 @@
 	ethic="ethic_fanatic_materialist"
 	trait="trait_quick_learners"
 	trait="trait_communal"
+}
+
+"Minbari Federation"
+={
+	name_list="Human"
+	ship_prefix="EAS"
+	species_name="Minbari"
+	species_plural="Minbari"
+	species_class="MAM"
+	species_adjective="Minbari"
+	portrait="human"
+	name="Minbari Federation"
+	adjective="Minbari Federation"
+	government="theocratic_oligarchy"
+	ftl=wormhole
+	weapon="tech_lasers_1"
+	planet_name="Minbar"
+	planet_class="pc_continental"
+	system_name="Chi Draconis"
+	initializer="sol_system_initializer"
+	graphical_culture="avian_01"
+	city_graphical_culture="avian_01"
+	empire_flag={
+		icon={
+			category="babylon5"
+			file="minbari.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"blue"
+			"null"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Luis Santiago"
+		portrait="human_male_01"
+		texture=0
+		hair=1
+		clothes=0
+	}
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	trait="trait_conformists"
 }

@@ -28,7 +28,7 @@ human
 			file="00_solid.dds"
 		}
 		colors={
-			"purple"
+			"dark_blue"
 			"null"
 			"null"
 			"null"
@@ -44,7 +44,8 @@ human
 	}
 	spawn_enabled=yes
 	ethic="ethic_xenophile"
-	ethic="ethic_fanatic_materialist"
+	ethic="ethic_materialist"
+	ethic="ethic_nomadic"
 	trait="trait_quick_learners"
 	trait="trait_communal"
 }
@@ -52,7 +53,7 @@ human
 minbari
 ={
 	name_list="Human"
-	ship_prefix="EAS"
+	ship_prefix="MIN"
 	species_name="Minbari"
 	species_plural="Minbari"
 	species_class="MAM"
@@ -97,4 +98,54 @@ minbari
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
 	trait="trait_conformists"
+}
+
+centauri
+={
+	name_list="Human"
+	ship_prefix="CNT"
+	species_name="Centauri"
+	species_plural="Centauri"
+	species_class="MAM"
+	species_adjective="Centauri"
+	portrait="centauri"
+	name="Centauri Republic"
+	adjective="Centauri Republic"
+	government="theocratic_oligarchy"
+	ftl=wormhole
+	weapon="tech_lasers_1"
+	planet_name="Centauri Prime"
+	planet_class="pc_continental"
+	system_name="Centauri Prime"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="babylon5"
+			file="centauri.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"purple"
+			"null"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Turhan"
+		portrait="centauri-ruler1"
+		texture=0
+		hair=0
+		clothes=0
+	}
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	trait="trait_thrifty"
 }

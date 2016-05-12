@@ -1,10 +1,19 @@
 portraits = {
-####HUMANS##########
+####HUMANS####
 ####MINBARI###
 	minbari-ruler1 = {     
 		texturefile = "gfx/portraits/minbari-ruler1.dds"
 	}
 
+####VORLON####
+	vorlon-ruler1 = {
+		texturefile = "gfx/portraits/vorlon-ruler1.dds"
+	}
+
+###CENTAURI###
+	centauri-ruler1 = {
+		texturefile = "gfx/portraits/centauri-ruler1.dds"
+	}
 }
 
 portrait-groups = {
@@ -12,6 +21,18 @@ portrait-groups = {
 		default = minbari-ruler1
 		portraits = {
 			minbari-ruler1
+		}
+	}
+	vorlon = {
+		default = vorlon-ruler1
+		portraits = {
+			vorlon-ruler1
+		}
+	}
+	centauri = {
+		default = centauri-ruler1
+		portraits = {
+			centauri-ruler1
 		}
 	}
 }
